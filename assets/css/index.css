@@ -1,0 +1,42 @@
+/* 底部版权信息 */
+.layui-footer {
+    text-align: center;
+}
+
+/* 页面字体图标样式 */
+.iconfont {
+    margin-right: 10px;
+}
+
+.layui-icon {
+    margin-left: 10px;
+}
+
+/*  页面个人中心 头像样式*/
+.myCenter .headPortraits {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #009688;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div.myCenter {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* 后台首页 默认显示界面 */
+.layui-body {
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}

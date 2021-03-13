@@ -31,3 +31,29 @@ body {
     height: 60px;
     background: url(/assets/images/login_title.png) no-repeat center;
 }
+
+/* 登录注册表单样式 */
+form {
+    padding: 0 30px;
+}
+
+/* input框内的字体图标 使用定位 */
+.layui-form-item {
+    position: relative;
+}
+
+.layui-form-item .layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-form-item input {
+    padding-left: 30px;
+}
+
+.toReg-item,
+.toLogin-item {
+    display: flex;
+    justify-content: flex-end;
+}
