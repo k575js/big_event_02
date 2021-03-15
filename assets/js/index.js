@@ -24,9 +24,6 @@ function getUserInfo() {
         url: '/my/userinfo',
         type: 'get',
         // data: {},   无需传参数 不过需要设置header
-        beforeSend: function (request) {
-            request.setRequestHeader("Authorization", localStorage.getItem("token"));
-        },
         success: (res) => {
             console.log(res);
             if (res.status == 1) return;

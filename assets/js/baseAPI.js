@@ -9,7 +9,7 @@ $.ajaxPrefilter((params) => {
 
         // 登录拦截
         params.complete = (res) => {
-            console.log(res);
+            // console.log(res);
             let { status, message } = res.responseJSON;
             if (status == 1 && message == '身份认证失败！') {
                 location.href = '/login.html' //跳转回login页面
