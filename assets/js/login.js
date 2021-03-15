@@ -23,7 +23,7 @@ $(function () {
     $('#regForm').on('submit', (e) => {
         e.preventDefault();
         $.ajax({
-            url: 'http://api-breakingnews-web.itheima.net/api/reguser',
+            url: '/api/reguser',
             type: 'POST',
             data: {
                 username: $('#regForm input[name=username]').val(),
@@ -42,7 +42,7 @@ $(function () {
     $('#loginForm').on('submit', (e) => {
         e.preventDefault();
         $.ajax({
-            url: 'http://api-breakingnews-web.itheima.net/api/login',
+            url: '/api/login',
             type: 'post',
             data: $('#loginForm').serialize(),
             success: (res) => {
@@ -53,4 +53,6 @@ $(function () {
             }
         })
     })
+
+
 })
